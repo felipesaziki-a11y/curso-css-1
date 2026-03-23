@@ -29,4 +29,7 @@
     border-bottom: 5px ridge red;
     border-right: 5px ridge red;
     border-left:5px ridge red;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-radius: 50px;
 }
