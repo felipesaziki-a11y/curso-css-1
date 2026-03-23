@@ -29,7 +29,90 @@
     border-bottom: 5px ridge red;
     border-right: 5px ridge red;
     border-left:5px ridge red;
+    border-top-right-radius: 50px; 
     border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-radius: 50px;
+}
+.imagem-codigo{
+    background-image: url(https://www.tse.jus.br/imagens/fotos/codigo-fonte-06-09.2023/@@images/deef371c-29fd-4b01-98c6-404f3a7bc92b.jpeg);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    color:beige;
+    border-radius: 25px;
+    border: 4px solid orange;
+    margin-top: 30px;
+}
+.botao-estilizado{
+    width: 100px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    transition: background-color 0.1s ease
+}
+.botao-estilizado:hover{
+    cursor:pointer;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.tabela-xmen{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.tabela-xmen thead tr{
+    background-color: purple;
+    color:white;
+}
+.tabela-xmen thead tr,
+.tabela-xmen tbody td{
+    padding: 14px 16px;
+    text-align: left;
+}
+.tabela-xmen tbody tr{
+    border-bottom: 1px solid beige;
+    transition: background-color 0.2s ease;
+}
+.tabela-xmen tbody tr:nth-child(even){
+    background-color: antiquewhite;
+}
+.tabela-xmen tbody tr:hover{
+    background-color: grey;
+}
+.tabela-xmen thead th{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.tabela-xmen thead td{
+    color: #6e6e6e;
+}
+.tabela-xmen tbody tr td img{
+    max-width: 100px;
+}
+.botao-atras{
+    width: 100px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 100%;
+    border: 0px;
+    border-radius: 10px;
+    transition: background-color 0.1s ease, padding 0.1s ease;
+}
+.botao-atras:hover{
+    cursor:pointer;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding:6px 20px;
+    font-size:120%;
 }

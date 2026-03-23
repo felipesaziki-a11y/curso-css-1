@@ -25,6 +25,8 @@ h3 {
 
 a {
     color:beige;
+    font-size: 20px;
+    transition: font-size 0.75s ease, color 0.75s ease;
 }
 
 p {
@@ -45,5 +47,10 @@ div {
     color:beige;
 }
 .links{
-    border: 20px ridge beige;
+    border: 5px ridge beige;
+}
+a:hover{
+    cursor: pointer;
+    font-size: 25px;
+    color:blue;
 }
